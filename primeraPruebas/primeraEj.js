@@ -1,8 +1,8 @@
 var numHaAdivinar = prompt("Dime un numero del 1 al 50 para adiviniarlo");
-console.log(numHaAdivinar);
-
 let buscadorNum = parseInt(Math.random()*50 + 1);
 
+
+console.log(numHaAdivinar);
 console.log(buscadorNum);
 if (parseInt(buscadorNum) < parseInt(numHaAdivinar)){
     console.log("Te pasaste jefe!");
